@@ -11,6 +11,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Mogul Theaters</title>
   </head>
@@ -21,7 +25,7 @@
           <div class="header__logo">
             <h2>MOGUL <span class="theaters">Theaters</span></h2>
           </div>
-          <a href="#"><button class="header__btn">Movies</button></a>
+          <a href="#movies"><button class="header__btn">Movies</button></a>
         </div>
         <!-- <h1>Your Kind of Movie Site !!!</h1> -->
         <div class="carousel">
@@ -36,13 +40,61 @@
           </div>
         </div>
         <div class="icons">
-          <i class="fa-solid fa-arrow-left" id="left"></i>
-          <i class="fa-sharp fa-solid fa-arrow-right" id="right"></i>
+          <i class="bx bxs-chevron-left" id="left"></i>
+          <i class="bx bxs-chevron-right" id="right"></i>
         </div>
         <h1 class="desc">Your Kind of Movie Site !!!</h1>
       </div>
     </header>
-    <section class="movies"></section>
+    <section class="form-section">
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="Search" />
+      </form>
+    </section>
+    <section class="movies" id="movies">
+      <div class="movie">
+        <img class="poster" src="./imgs/06.jpg" alt="" />
+        <div class="movie-info">
+          <div class="title-overview">
+            <h3 class="movie-title">Movie Title</h3>
+            <i class="bx bx-dots-horizontal-rounded" id="dots"></i>
+          </div>
+          <span class="red rt">9.8</span>
+        </div>
+        <div class="overview">
+          <h3>Overview</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+            dolor ratione iste possimus quibusdam minus eaque numquam itaque cum
+            earum voluptate eum fuga deleniti, amet esse nam unde accusantium
+            nisi commodi nulla! Labore rerum voluptatibus ducimus praesentium
+            quae nobis assumenda animi itaque quisquam? Quia aliquid commodi
+            provident, itaque numquam iste?
+          </p>
+        </div>
+      </div>
+      <div class="movie">
+        <img class="poster" src="./imgs/06.jpg" alt="" />
+        <div class="movie-info">
+          <div class="title-overview">
+            <h3 class="movie-title">Movie Title</h3>
+            <i class="bx bx-dots-horizontal-rounded" id="dots"></i>
+          </div>
+          <span class="red rt">9.8</span>
+        </div>
+        <div class="overview">
+          <h3>Overview</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+            dolor ratione iste possimus quibusdam minus eaque numquam itaque cum
+            earum voluptate eum fuga deleniti, amet esse nam unde accusantium
+            nisi commodi nulla! Labore rerum voluptatibus ducimus praesentium
+            quae nobis assumenda animi itaque quisquam? Quia aliquid commodi
+            provident, itaque numquam iste?
+          </p>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
