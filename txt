@@ -1,0 +1,21 @@
+<div class="movie">
+  <img class="poster" src="./imgs/06.jpg" alt="" />
+  <div class="movie-info">
+    <div class="title-container">
+      <h3 class="movie-title">Movie Title</h3>
+      <h4 class="date-released">2022-11-23</h4>
+    </div>
+    <span class="red rt">9.8</span>
+  </div>
+  <div class="overview">
+    <h3 class="ov">Overview</h3>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda dolor
+      ratione iste possimus quibusdam minus eaque numquam itaque cum earum
+      voluptate eum fuga deleniti, amet esse nam unde accusantium nisi commodi
+      nulla! Labore rerum voluptatibus ducimus praesentium quae nobis assumenda
+      animi itaque quisquam? Quia aliquid commodi provident, itaque numquam
+      iste?
+    </p>
+  </div>
+</div>
