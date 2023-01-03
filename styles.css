@@ -63,6 +63,7 @@ body {
 
 .theaters {
   font-weight: 300;
+  color: #fff;
 }
 
 .header__btn {
@@ -139,7 +140,7 @@ body {
 
 .desc {
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
   line-height: 4rem;
 }
@@ -271,4 +272,16 @@ body {
 .search:focus {
   outline: none;
   background-color: #2d8e5a;
+}
+
+.footer {
+  background-color: #1b3427;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h5 {
+  font-size: 1.5rem;
 }

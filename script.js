@@ -119,3 +119,22 @@ form.addEventListener('submit', (e) => {
     window.location.reload();
   }
 });
+
+/////////////////AUTO TEXT EFFECT//////////
+const textEl = document.querySelector('.desc');
+const text = 'Latest and most popular movies across the Globe.';
+let i = 1;
+
+function writeText() {
+  textEl.innerText = text.slice(0, i);
+
+  i++;
+
+  if (i > text.length) {
+    i = 1;
+  }
+
+  setTimeout(writeText, 300);
+}
+
+writeText();
