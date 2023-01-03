@@ -56,6 +56,11 @@ body {
   letter-spacing: 0.2px;
 }
 
+.header__logo a {
+  text-decoration: none;
+  color: #ffcba4;
+}
+
 .theaters {
   font-weight: 300;
 }
