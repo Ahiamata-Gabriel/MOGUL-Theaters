@@ -91,7 +91,7 @@
 
 @media (min-width: 341px) and (max-width: 480px) {
   .header {
-    height: 55vh;
+    height: 60vh;
   }
 
   .header__contents {
