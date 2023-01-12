@@ -147,21 +147,24 @@ body {
 
 /* ///////MOVIE//////////// */
 .main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
   gap: 1rem;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem;
+  max-width: 1201px;
 }
 
 .movie {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 230px;
   color: #ffcba4;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
 }
 
 .title-container {
@@ -206,6 +209,7 @@ body {
   transform: translateY(-101%);
   transition: transform 300ms ease-in-out;
   color: #fff;
+  border-radius: 15px 15px 0 0;
 }
 .ov {
   padding-top: 0.5rem;
@@ -249,10 +253,33 @@ body {
 
 .form-section {
   background-color: #1b3427;
+}
+
+.form-section,
+.main-movies-section {
+  display: grid;
+  place-items: center;
+}
+
+.form-contents {
   padding: 3rem 3rem;
   display: flex;
+  gap: 2rem;
   align-items: center;
   justify-content: flex-end;
+  max-width: 1201px;
+  width: 100%;
+}
+
+.form-section h3,
+.form-section i {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+.form-section i {
+  padding-left: 1rem;
 }
 
 .search {

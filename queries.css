@@ -1,0 +1,246 @@
+@media (min-width: 1201px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    height: 100vh;
+  }
+
+  .header__contents {
+    /* height: 80vh; */
+    width: 95vw;
+  }
+
+  .herder__top {
+    padding: 1rem;
+  }
+
+  /* .header__logo {
+    font-size: 1rem;
+  } */
+
+  /* .header__btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2;
+  } */
+
+  .carousel {
+    width: 90%;
+  }
+
+  .icons i {
+    font-size: medium;
+  }
+
+  .desc {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .form-contents {
+    padding: 2rem 0;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  /* .form-section i {
+    display: none;
+  } */
+
+  .form-section h3,
+  .form-section i {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+
+  /* .search {
+    border: 1px solid #ffcba4;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+  } */
+
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .movie-title {
+    font-size: 2rem;
+  }
+
+  .date-released {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 3rem 1.5rem;
+  }
+
+  .footer h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 341px) and (max-width: 480px) {
+  .header {
+    height: 100vh;
+  }
+
+  .header__contents {
+    height: 65vh;
+    width: 95vw;
+  }
+
+  .herder__top {
+    padding: 1rem;
+  }
+
+  .header__logo {
+    font-size: 1rem;
+  }
+
+  .header__btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .icons i {
+    font-size: medium;
+  }
+
+  .desc {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .form-contents {
+    padding: 2rem 0;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .form-section i {
+    display: none;
+  }
+
+  .form-section h3,
+  .form-section i {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+
+  .search {
+    border: 1px solid #ffcba4;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-title {
+    font-size: 2rem;
+  }
+
+  .date-released {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 3rem 1.5rem;
+  }
+
+  .footer h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .header {
+    height: 100vh;
+  }
+
+  .header__contents {
+    height: 60vh;
+    width: 95vw;
+  }
+
+  .herder__top {
+    padding: 1rem;
+  }
+
+  .header__logo {
+    font-size: 1rem;
+  }
+
+  .header__btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .icons i {
+    font-size: medium;
+  }
+
+  .desc {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .form-contents {
+    padding: 2rem 0;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .form-section i {
+    display: none;
+  }
+
+  .form-section h3,
+  .form-section i {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+
+  .search {
+    border: 1px solid #ffcba4;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 3rem 1.5rem;
+  }
+
+  .footer h5 {
+    font-size: 1rem;
+  }
+}
