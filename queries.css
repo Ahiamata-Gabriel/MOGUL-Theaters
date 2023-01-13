@@ -2,18 +2,46 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-}
+  .header__contents {
+    height: 80vh;
+    width: 95vw;
+  }
 
-@media (min-width: 481px) and (max-width: 768px) {
   .header {
-    height: 100vh;
+    height: 70vh;
   }
 
   .header__contents {
-    /* height: 80vh; */
+    height: 60vh;
+    width: 95vw;
+  }
+
+  .carousel {
+    width: 80%;
+  }
+
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .date-released {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* .header {
+    height: 70vh;
+  } */
+
+  .header__contents {
+    height: 60vh;
     width: 95vw;
   }
 
@@ -21,17 +49,8 @@
     padding: 1rem;
   }
 
-  /* .header__logo {
-    font-size: 1rem;
-  } */
-
-  /* .header__btn {
-    padding: 0.8rem 1.5rem;
-    font-size: 1.2;
-  } */
-
   .carousel {
-    width: 90%;
+    width: 80%;
   }
 
   .icons i {
@@ -51,10 +70,6 @@
     justify-content: center;
   }
 
-  /* .form-section i {
-    display: none;
-  } */
-
   .form-section h3,
   .form-section i {
     font-size: 2rem;
@@ -62,14 +77,8 @@
     line-height: 4rem;
   }
 
-  /* .search {
-    border: 1px solid #ffcba4;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.7rem;
-  } */
-
   .main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .movie-title {
@@ -91,11 +100,11 @@
 
 @media (min-width: 341px) and (max-width: 480px) {
   .header {
-    height: 100vh;
+    height: 60vh;
   }
 
   .header__contents {
-    height: 65vh;
+    height: 55vh;
     width: 95vw;
   }
 
@@ -152,6 +161,7 @@
 
   .main {
     grid-template-columns: 1fr;
+    padding: 2rem 3rem;
   }
 
   .movie-title {
@@ -173,11 +183,11 @@
 
 @media (max-width: 340px) {
   .header {
-    height: 100vh;
+    height: 65vh;
   }
 
   .header__contents {
-    height: 60vh;
+    height: 55vh;
     width: 95vw;
   }
 
@@ -234,6 +244,7 @@
 
   .main {
     grid-template-columns: 1fr;
+    padding: 1rem 2rem;
   }
 
   .footer {
