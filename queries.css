@@ -1,11 +1,33 @@
+@media (min-width: 1201px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1023px) {
   .header__contents {
     height: 80vh;
     width: 95vw;
   }
 
+  .header {
+    height: 70vh;
+  }
+
+  .header__contents {
+    height: 60vh;
+    width: 95vw;
+  }
+
+  .carousel {
+    width: 80%;
+  }
+
   .main {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .date-released {
@@ -14,9 +36,9 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .header {
+  /* .header {
     height: 70vh;
-  }
+  } */
 
   .header__contents {
     height: 60vh;
@@ -56,7 +78,7 @@
   }
 
   .main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .movie-title {
