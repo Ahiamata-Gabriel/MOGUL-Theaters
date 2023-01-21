@@ -57,8 +57,6 @@ const getMovies = async (url) => {
   const data = await response.json();
 
   showMovies(data.results);
-
-  console.log(data.results);
 };
 
 getMovies(API_URL_POPULAR);
